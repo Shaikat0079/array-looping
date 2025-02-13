@@ -17,3 +17,19 @@ for (let i = 0; i<numbers.length;i++){
 }
 
 console.log(even_numbers)
+
+let TT = ['Tom', 'Tim', 'Tin', 'Tik']
+
+console.log(TT.join(""));
+
+const statement = 'I am a hard working person';
+
+const strCopy = statement.split(" ");
+console.log(strCopy)
+const newStatementArray = [];
+for(let i=strCopy.length-1; i>=0;i--){
+    newStatementArray.push(strCopy[i]);
+}
+
+console.log(newStatementArray)
+console.log(newStatementArray.join(" "))
